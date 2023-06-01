@@ -80,7 +80,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: .next/server
+          path: .next/server/pages
 
   # Deployment job
   deploy:
