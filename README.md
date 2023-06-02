@@ -1,7 +1,7 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li> <a href="#about-the-project">About Freakout</a></li>
+    <li> <a href="#running-the-project-locally-for-developers">Running the Project Locally</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
@@ -22,32 +22,21 @@
   3. Once all packages have been installed run the command
   * ```npm run dev```
   
-  
+  ![](https://github.com/DDSkunkworks/ButcheryFundamentals/blob/main/readmeassets/openterminal.gif)
 
 <br/>
 <br/>
 
-## Launching the project for Production (FOR CLIENT)
+## TEMPLATE SHEETS (FOR CLIENT)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+THESE FOLLOWING SHEETS ARE MEANT TO BE USED AS A COPY FOR YOUR VERSION OF THE APPLICATION 
+  * to create a copy of the sheet do the following steps in the google sheet tab you have open
+    * ```File -> Make a copy```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![](https://github.com/DDSkunkworks/ButcheryFundamentals/blob/main/readmeassets/copysheet.png))
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Results Sheet  (used for display all of the students scores all all test) #### 
+* [Results Sheet](https://docs.google.com/spreadsheets/d/1BEvpO5J6H6vDXG1E_EH8fYfJsqAMZVVJRsSHdE3Mp1o/edit?usp=sharing )
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Login Sheet  (used for determining what students are logged in) #### 
+* [Results Sheet](https://docs.google.com/spreadsheets/d/1BEvpO5J6H6vDXG1E_EH8fYfJsqAMZVVJRsSHdE3Mp1o/edit?usp=sharing )
