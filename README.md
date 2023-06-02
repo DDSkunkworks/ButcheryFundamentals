@@ -5,15 +5,15 @@
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#external-forms">External Forms</a></li>
+    <li><a href="#template-sheets-for-client">Google Sheet Templates</a></li>
   </ol>
 </details>
 <br/>
 <br/>
 
 ## Running the Project Locally (FOR DEVELOPERS)
-<summary><h2 style="display: inline-block">Steps</h2></summary>
 
+### STEPS ###
   1. Fork or clone the Repo to your local machine
   
   2. Once the project is on your computer go on to terminal and go to where the project is saved, once there run the command
@@ -22,7 +22,14 @@
   3. Once all packages have been installed run the command
   * ```npm run dev```
   
+  4. The Local server has now been started, in your web browser go to ```localhost:3000``` to view the web app
+  
   ![](https://github.com/DDSkunkworks/ButcheryFundamentals/blob/main/readmeassets/openterminal.gif)
+
+<br/>
+<br/>
+
+## UPLOADING TO VERCEL (FOR CLIENT)
 
 <br/>
 <br/>
