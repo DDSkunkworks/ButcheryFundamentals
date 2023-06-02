@@ -1,14 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li> <a href="#about-the-project">About Freakout</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#external-forms">External Forms</a></li>
+  </ol>
+</details>
+<br/>
+<br/>
 
-## Getting Started
+## Running the Project Locally (FOR DEVELOPERS)
+<summary><h2 style="display: inline-block">Steps</h2></summary>
 
-First, run the development server:
+  1. Fork or clone the Repo to your local machine
+  
+  2. Once the project is on your computer go on to terminal and go to where the project is saved, once there run the command
+  * ```npm install```    
+  
+  3. Once all packages have been installed run the command
+  * ```npm run dev```
+  
+  
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<br/>
+<br/>
+
+## Launching the project for Production (FOR CLIENT)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
