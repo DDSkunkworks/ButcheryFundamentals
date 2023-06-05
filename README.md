@@ -3,9 +3,10 @@
   <ol>
     <li> <a href="#running-the-project-locally-for-developers">Running the Project Locally (developer)</a></li>
     <li><a href="#updating-the-google-sheets-services-call-developers-and-client">Updating the google Sheets Services call (developer / client)</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#uploading-to-vercel-for-client">Uploading to Vercel (Client)</a></li>
     <li><a href="#template-sheets-for-client">Google Sheet Templates</a></li>
+     <li><a href="#contacts">Contacts</a></li>
+   
   </ol>
 </details>
 <br/>
@@ -85,25 +86,39 @@ For Developers
 >> id: 11SijW8y4XHpFQGwHfL4sOjC9yIZ1slH5cKcrUBWIvWg
 >>> GOOGLE_LOGIN_SHEET = 11SijW8y4XHpFQGwHfL4sOjC9yIZ1slH5cKcrUBWIvWg
 14. for the value ```GOOGLE_SERVICE_KEY``` paste the result from step 12
-15. your application is now ready to test local or be uploaded
-
-
-For Client 
----
-13. follow the steps as outlined in the [uploading to vercel steps](#uploading-to-vercel-for-client)
-
+15. your application is now ready to test locally
+> for testing on external server follow [uploading to vercel steps](#uploading-to-vercel-for-client) steps
 
 <br/>
 <br/>
 
 ## UPLOADING TO VERCEL (FOR CLIENT)
 
+> Follow steps from [updating google sheets](#updating-the-google-sheets-services-call-developers-and-client) before doing this step
+
 ### STEPS ###
-1. 
-2. Go to [Vercel](https://vercel.com/) and login or signup (it's is reccom)
-3. once on the dashboard press the ``add new`` button in the top right hand corner
-4. select the ``project`` option
-5. 
+1. Fork this project into a github account that will be associated with Vercel
+3. Go to [Vercel](https://vercel.com/) and login or signup (it is reccomended to select the github option, use the github account from step 1)
+4. once on the dashboard press the ``add new`` button in the top right hand corner
+5. select the ``project`` option
+6. press the dropdown option of the ``select a Git Namespace`` and select ``add github account``
+>a pop will appear and ask  which account you'd like Vercel to connect too
+>>select the option where your forked this project too
+7. once on the "almost done" page press the ``Enviroment Variables`` section
+8. Copy the id of both google sheets from the url and paste the values onto vercel as values
+> for example: `https://docs.google.com/spreadsheets/d/11SijW8y4XHpFQGwHfL4sOjC9yIZ1slH5cKcrUBWIvWg/edit#gid=0`
+>> id: 11SijW8y4XHpFQGwHfL4sOjC9yIZ1slH5cKcrUBWIvWg
+
+* DO NOT CHANGE THE SECRET_COOKIE_PASSWORD
+* The Enviroment variables names on vercel should be the excate same as the ones in the table 
+
+
+| Name        | value           |
+| ------------- |-------------  |
+| SECRET_COOKIE_PASSWORD     | `GjB7TFTxBdxv6vYhZrHAQABAoGAX58GJHTSpfmr0ubZ6m` |
+| GOOGLE_COMPLETE_SHEET     | `ID FROM GOOGLE_SHEET` |
+| GOOGLE_LOGIN_SHEET     | `ID FROM GOOGLE_SHEET` |
+| GOOGLE_SERVICE_KEY     | `BASE 64 STRING FROM STEP 12. OF UPDATING THE GOOGLE SHEETS SERVICES CALL` |
 <br/>
 <br/>
 
@@ -120,3 +135,11 @@ THE FOLLOWING SHEETS ARE MEANT TO BE USED AS A COPY FOR YOUR VERSION OF THE APPL
 
 #### Login Sheet  (used for determining what students are logged in) #### 
 * [Results Sheet](https://docs.google.com/spreadsheets/d/1BEvpO5J6H6vDXG1E_EH8fYfJsqAMZVVJRsSHdE3Mp1o/edit?usp=sharing )
+
+<br/>
+<br/>
+
+## Contacts
+* Developer [Mas Tsukada](mailto:tsukada.m@hotmail.com)
+* Project Owner [Daniel Stopnicki](mailto:dan@ddskunkworks.com)
+* Lead Developer [Ryan Hayes](mailto:hayes.ryan83@gmail.com)
