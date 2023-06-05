@@ -76,17 +76,19 @@
 <br/>
 <br/>
 
-12. using [Base code 64](https://www.base64encode.org/) copy all of the contents from that .json file and paste into the encoder section of the web application, once pasted press the ```encode``` button and save the results to  a file for later use
+12. Enable the use of the [google sheets api](https://console.developers.google.com/apis/library/sheets.googleapis.com ) to allow the email write access to the sheets 
+
+13. using [Base code 64](https://www.base64encode.org/) copy all of the contents from that .json file and paste into the encoder section of the web application, once pasted press the ```encode``` button and save the results to  a file for later use
 
 For Developers 
 ---
-13. Copy the id of both google sheets from the url and paste the values to the respective spots inside the .env file of the project 
+14. Copy the id of both google sheets from the url and paste the values to the respective spots inside the .env file of the project 
 * DO NOT CHANGE THE SECRET_COOKIE_PASSWORD
 > for example: `https://docs.google.com/spreadsheets/d/11SijW8y4XHpFQGwHfL4sOjC9yIZ1slH5cKcrUBWIvWg/edit#gid=0`
 >> id: 11SijW8y4XHpFQGwHfL4sOjC9yIZ1slH5cKcrUBWIvWg
 >>> GOOGLE_LOGIN_SHEET = 11SijW8y4XHpFQGwHfL4sOjC9yIZ1slH5cKcrUBWIvWg
-14. for the value ```GOOGLE_SERVICE_KEY``` paste the result from step 12
-15. your application is now ready to test locally
+15. for the value ```GOOGLE_SERVICE_KEY``` paste the result from step 13
+16. your application is now ready to test locally
 > for testing on external server follow [uploading to vercel steps](#uploading-to-vercel-for-client) steps
 
 <br/>
@@ -118,7 +120,7 @@ For Developers
 | SECRET_COOKIE_PASSWORD     | `GjB7TFTxBdxv6vYhZrHAQABAoGAX58GJHTSpfmr0ubZ6m` |
 | GOOGLE_COMPLETE_SHEET     | `ID FROM GOOGLE_SHEET` |
 | GOOGLE_LOGIN_SHEET     | `ID FROM GOOGLE_SHEET` |
-| GOOGLE_SERVICE_KEY     | `BASE 64 STRING FROM STEP 12. OF UPDATING THE GOOGLE SHEETS SERVICES CALL` |
+| GOOGLE_SERVICE_KEY     | `BASE 64 STRING FROM STEP 13. OF UPDATING THE GOOGLE SHEETS SERVICES CALL` |
 <br/>
 <br/>
 
