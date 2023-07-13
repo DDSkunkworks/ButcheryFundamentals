@@ -1,3 +1,7 @@
+[Demo Version of Butchery Application](https://butchery-fundamentals-ten.vercel.app/login)
+[Demo Version of Butchery Application Test Result](https://docs.google.com/spreadsheets/d/17TPE1iDT_ASpzPHlDZ5sVWl3Q_vxVy84XMrCmKsPmoA/edit#gid=0)
+[Demo Version of Butchery Application Logged Student](https://docs.google.com/spreadsheets/d/1uYhV9elhcLfTFvTbWxSC0anw59oAuD_xVYGFRzWWKqM/edit#gid=0)
+
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
@@ -136,7 +140,7 @@ THE FOLLOWING SHEETS ARE MEANT TO BE USED AS A COPY FOR YOUR VERSION OF THE APPL
 * [Results Sheet](https://docs.google.com/spreadsheets/d/1BEvpO5J6H6vDXG1E_EH8fYfJsqAMZVVJRsSHdE3Mp1o/edit?usp=sharing )
 
 #### Login Sheet  (used for determining what students are logged in) #### 
-* [Results Sheet](https://docs.google.com/spreadsheets/d/1BEvpO5J6H6vDXG1E_EH8fYfJsqAMZVVJRsSHdE3Mp1o/edit?usp=sharing )
+* [Login Sheet](https://docs.google.com/spreadsheets/d/1Z3auRSpUXhxeQx_6a73uSzzrAHZtTTaTV6ou9S8HRFQ/edit#gid=0)
 
 <br/>
 <br/>
