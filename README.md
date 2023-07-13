@@ -1,3 +1,6 @@
+### Butchery Fundamentals Upload Guide
+[Upload Guide](https://github.com/DDSkunkworks/ButcheryFundamentals/blob/main/Butchery%20Fundametals%20Upload%20Guide.pdf)
+
 ### Demo of Butchery Application
   * [Demo Version of Butchery Application](https://butchery-fundamentals-ten.vercel.app/login)
   * [Demo Version of Butchery Application Test Result](https://docs.google.com/spreadsheets/d/17TPE1iDT_ASpzPHlDZ5sVWl3Q_vxVy84XMrCmKsPmoA/edit#gid=0)
