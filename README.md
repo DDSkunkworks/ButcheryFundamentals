@@ -1,6 +1,7 @@
-[Demo Version of Butchery Application](https://butchery-fundamentals-ten.vercel.app/login)
-[Demo Version of Butchery Application Test Result](https://docs.google.com/spreadsheets/d/17TPE1iDT_ASpzPHlDZ5sVWl3Q_vxVy84XMrCmKsPmoA/edit#gid=0)
-[Demo Version of Butchery Application Logged Student](https://docs.google.com/spreadsheets/d/1uYhV9elhcLfTFvTbWxSC0anw59oAuD_xVYGFRzWWKqM/edit#gid=0)
+### Demo of Butchery Application
+  * [Demo Version of Butchery Application](https://butchery-fundamentals-ten.vercel.app/login)
+  * [Demo Version of Butchery Application Test Result](https://docs.google.com/spreadsheets/d/17TPE1iDT_ASpzPHlDZ5sVWl3Q_vxVy84XMrCmKsPmoA/edit#gid=0)
+  * [Demo Version of Butchery Application Logged Student](https://docs.google.com/spreadsheets/d/1uYhV9elhcLfTFvTbWxSC0anw59oAuD_xVYGFRzWWKqM/edit#gid=0)
 
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
